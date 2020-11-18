@@ -1,0 +1,28 @@
+{
+	"a" : 	{
+		"gate" : 1,
+		"file" : "Macintosh HD:/Users/cm/Desktop/peakcut/samples/808/CH/CH.WAV",
+		"random" : 0
+	}
+,
+	"b" : 	{
+		"gate" : 0,
+		"file" : "Macintosh HD:/Users/cm/Desktop/peakcut/samples/808/CL/CL.WAV"
+	}
+,
+	"c" : 	{
+		"gate" : 1,
+		"file" : "Macintosh HD:/Users/cm/Desktop/peakcut/samples/808/CB/CB.WAV",
+		"random" : 1
+	}
+,
+	"d" : 	{
+		"gate" : 0
+	}
+,
+	"#1" : 	{
+		"gate" : 1
+	}
+,
+	"0" : 0
+}
