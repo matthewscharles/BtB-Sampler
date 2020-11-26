@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 88.0, 1148.0, 29.5, 22.0 ],
-					"text" : "/ 2"
+					"text" : "/ 4"
 				}
 
 			}
@@ -101,12 +101,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-124",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.5, 1322.0, 50.0, 22.0 ],
-					"text" : "10000."
+					"patching_rect" : [ 96.5, 1322.0, 50.0, 35.0 ],
+					"presentation_linecount" : 2,
+					"text" : "9288.095559"
 				}
 
 			}
@@ -300,19 +302,6 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ -24.0, 972.666681230068207, 29.5, 22.0 ],
 					"text" : "* 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-268",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 621.978052377700806, 1029.670379996299744, 244.175835132598877, 171.868133425712585 ],
-					"setstyle" : 2
 				}
 
 			}
@@ -1273,11 +1262,11 @@
 				"box" : 				{
 					"id" : "obj-122",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 325.0, -241.0, 41.0, 22.0 ],
-					"text" : "sel 32"
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 216.0, -220.0, 52.0, 22.0 ],
+					"text" : "r stopAll"
 				}
 
 			}
@@ -3299,15 +3288,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 9.0,
+					"fontsize" : 12.0,
 					"id" : "obj-205",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 743.0, 1.000005424022675, 117.0, 17.0 ],
+					"patching_rect" : [ 743.0, 1.000005424022675, 134.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 5.764700412750244, 115.0, 17.0 ],
-					"text" : "stretchedcyclebell.wav",
+					"presentation_rect" : [ 6.0, 5.764700412750244, 130.0, 20.0 ],
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -3717,7 +3705,7 @@
 					"ruler" : 0,
 					"selectioncolor" : [ 0.0, 0.0, 0.0, 0.44 ],
 					"setmode" : 1,
-					"waveformcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.09 ]
+					"waveformcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.64 ]
 				}
 
 			}
@@ -3861,7 +3849,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.416668117046356, 685.00000011920929, 128.0, 22.0 ],
+					"patching_rect" : [ 45.5, 707.00000011920929, 128.0, 22.0 ],
 					"text" : "loadmess mode select"
 				}
 
@@ -5019,7 +5007,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1068.599999999999909, -52.0, 50.0, 129.0 ],
-					"text" : "\"Macintosh HD:/Users/cm/Downloads/stretchedcyclebell.wav\""
+					"text" : "\"Macintosh HD:/Users/cm/Downloads/dominoplayers.wav\""
 				}
 
 			}
@@ -5897,15 +5885,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-250", 0 ],
-					"order" : 2,
-					"source" : [ "obj-208", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-268", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-208", 0 ]
 				}
 
@@ -5913,7 +5893,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-288", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-208", 0 ]
 				}
 
@@ -6676,14 +6656,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-122", 0 ],
-					"order" : 2,
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
