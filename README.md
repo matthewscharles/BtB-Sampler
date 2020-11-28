@@ -31,7 +31,9 @@ Save the key allocations as a text file to load next time (note the sound files 
 
 # FX: delay
 
-Choose the delay time and feedback.
+This effect creates an echo trail by sending sounds into a delayed feedback loop.
+
+Choose the delay time (the length of the echo in milliseconds) and feedback (how much of the echo is fed back into the loop, determining the length of the echo trail).
 
 # Recording
 
