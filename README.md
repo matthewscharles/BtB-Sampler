@@ -3,9 +3,16 @@ This is a prototype soundboard for online sound art/music workshops, created in 
 
 This sampler was created for [blurringtheboundaries.org](http://blurringtheboundaries.org/) (BtB Arts) and has been developed through [City Lit Sonic Arts](https://www.citylit.ac.uk/courses/sonic-arts-creativity-with-sound/) and [Music Boat](https://musicboat.org/taster-workshop-in-collaborative-sonic-art/).
 
-For the current version, a copy of [Cycling '74 Max](https://cycling74.com/downloads) is required.
+
 
 # Instructions
+
+## Installation
+
+For the current version, a copy of [Cycling '74 Max](https://cycling74.com/downloads) is required.
+
+- Download the latest release ([link here](https://github.com/matthewscharles/BtB-Sampler/releases)) and unzip to reveal a .mxf file.  
+- Load this file with Max.
 
 *These instructions are for version 0.1 - update in progress!*
 
