@@ -5,7 +5,7 @@ This sampler was created for [blurringtheboundaries.org](http://blurringthebound
 
 For the current version, a copy of [Cycling '74 Max](https://cycling74.com/downloads) is required.
 
-#Instructions
+#1 Instructions
 
 *These instructions are for version 0.1 - update in progress!*
 
